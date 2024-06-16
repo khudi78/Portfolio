@@ -1,0 +1,28 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* App.css */
+.rectangle-3d {
+    perspective: 1000px;
+  }
+  .rectangle-3d div {
+    transform: rotateX(10deg) rotateY(10deg);
+  }
+  
+  /* src/App.css */
+.ellipse-3d {
+    perspective: 1000px;
+  }
+  .ellipse-3d div {
+    transform: rotateX(10deg) rotateY(10deg);
+  }
+  
+  
